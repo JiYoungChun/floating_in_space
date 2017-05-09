@@ -19,9 +19,9 @@ var song;
 var backgroundSound;
 
 function preload() {
-    bubble = loadImage("/assets/bubble1.png");
-    song = loadSound("/assets/sound.wav");
-    backgroundSound = loadSound("/assets/bSound.mp3");
+    bubble = loadImage("assets/bubble1.png");
+    song = loadSound("assets/sound.wav");
+    backgroundSound = loadSound("assets/bSound.mp3");
 }
 
 function setup() {
